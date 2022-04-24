@@ -11,7 +11,7 @@ public class main{
 	    		continue;
 	    	}
     	int month=scr.nextInt();
-	    	if (1>month && month>12){
+	    	if (1>month || 12<month){
 	    		System.out.println("Please enter the correct format");
 	    		continue;
 	    	}
