@@ -21,7 +21,7 @@ public class main{
 	   				max=temp[j];
 	   			if (min>temp[j])
 	   				min=temp[j];
-	   			if (temp[j]>20)
+	   			if (temp[j]>=20)
 	   				count++;
 	   		}
 	   		out.printf("day  %d: %.2f, %.2f, %.2f, %d",d+1,avg/3,max,min,count);
