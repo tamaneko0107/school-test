@@ -43,12 +43,12 @@ public class main{
     		if((i+space)%7==0)
     			System.out.println();
     	}
-    	if ((i+space)%7==1)
+    	if ((i-1+space)%7==0)
     		for (int j=1;j<=7;j++){
     			System.out.printf("%3d ",j);
     		}
     	else
-    		for (int j=1;j<=(7-(i+space)%7)+1;j++)
+    		for (int j=1;j<=(7-(i-1+space)%7);j++)
     			System.out.printf("%3d ",j);
     	System.out.println();
     	System.out.println();
